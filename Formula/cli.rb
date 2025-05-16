@@ -6,8 +6,8 @@
 class Cli < Formula
   desc "Arsenal Command-line Interface"
   homepage "https://arsenal.merthin.com/"
-  url "https://npm.merthin.net/@merthin/cli/-/cli-1.2.33.tgz"
-  sha256 "e7882edc8e941114d2a39d7554e962bbe0d9d5daeada8f1c6e3df21f9a5c2cc0"
+  url "https://npm.merthin.net/@merthin/cli/-/cli-1.2.34.tgz"
+  sha256 "15afcc97fe66ae7ad2404da9e0d4b7861b2e6ffde14e6b9b62b3201ba0e93344"
   license "ISC"
 
   depends_on "node@22"
@@ -28,6 +28,6 @@ class Cli < Formula
   end
 
   test do
-    system "ced", "-V"
+    system "merthin", "-V"
   end
 end
