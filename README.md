@@ -1,18 +1,21 @@
-# Merthin Arsenal
+# Arsenal CLI
 
-## How do I install these formulae?
+Command line tool for Arsenal.
 
-`brew install merthin/arsenal/<formula>`
+Run `merthin -h` for help screen.
 
-Or `brew tap merthin/arsenal` and then `brew install <formula>`.
+## Installation
 
-Or, in a `brew bundle` `Brewfile`:
+### Install via Homebrew
 
-```ruby
-tap "merthin/arsenal"
-brew "<formula>"
+```shell
+brew install merthin/arsenal/cli
 ```
 
-## Documentation
+### Install via npm
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```shell
+npm config set "@ced:registry" https://npm.merthin.net/ --global
+npm config set "@merthin:registry" https://npm.merthin.net/ --global
+npm install @merthin/cli --global
+```
