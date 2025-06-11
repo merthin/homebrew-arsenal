@@ -6,8 +6,8 @@
 class Cli < Formula
   desc "Arsenal Command-line Interface"
   homepage "https://arsenal.merthin.com/"
-  url "https://npm.merthin.net/@merthin/cli/-/cli-1.0.4.tgz"
-  sha256 "266a3a80484fbd2984bca1cdaf6275690961b89aaaabd41cadce38dae46918d2"
+  url "https://npm.merthin.net/@merthin/cli/-/cli-1.0.10.tgz"
+  sha256 "05f5a291a1243e8b6a9f60ad9aa4b6837e14e90c6a1222fcbad009664ac4abc1"
   license "ISC"
 
   depends_on "node@22"
